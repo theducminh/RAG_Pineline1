@@ -17,8 +17,7 @@ airflow_home/airflow.db
 airflow_home/*.db
 
 # Dữ liệu & Cài đặt nặng
-data_input/
-output_data/
+
 *.deb
 *.deb.*
 *.exe
