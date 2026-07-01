@@ -1,0 +1,15 @@
+numpy==1.26.4
+pandas==2.2.3
+requests==2.32.3
+pyspark==3.5.2
+selenium==4.21.0
+beautifulsoup4
+supabase
+python-dotenv
+psycopg2-binary
+matplotlib
+plotly
+datasets
+huggingface_hub
+seaborn
+

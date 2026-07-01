@@ -1,0 +1,34 @@
+# Python environment
+.venv/
+airflow_env/
+.airflow_env/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Airflow rác
+airflow_home/
+airflow_home/logs/
+airflow_home/airflow-webserver.pid
+airflow_home/airflow-scheduler.pid
+airflow_home/airflow.db
+# Nếu cậu muốn lưu config trên Git thì bỏ dòng dưới, 
+# nhưng thường người ta không push db local lên.
+airflow_home/*.db
+
+# Dữ liệu & Cài đặt nặng
+data_input/
+output_data/
+*.deb
+*.deb.*
+*.exe
+*.zip
+*.tar.gz
+
+# Bảo mật (Cực kỳ quan trọng)
+**/.env
+.flaskenv
+
+# OS rác
+.DS_Store
+Thumbs.db
